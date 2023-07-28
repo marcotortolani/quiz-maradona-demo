@@ -1,0 +1,1239 @@
+{
+  "last-updated": "",
+  "config": {
+    "triesAllowedPerDay": 50,
+    "pointsCorrect": 1000,
+    "pointsWrong": 500,
+    "pointsBonus": 1000
+  },
+  "images": {
+    "logoHeader": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/trivia-diego-logo.webp",
+    "madeBy": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/by-memoob.webp",
+    "backgroundApp": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/background.webp",
+    "iconSoundActive": "/img/sound_active_icon.webp",
+    "iconSoundMute": "/img/sound_mute_icon.webp",
+    "spinButton": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/pelota.webp",
+    "pointerRoulette": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/diego-pointer.webp",
+    "bubbleStartMessage": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/globo.webp",
+    "bubbleDailyLimit": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/globo-limite-diario.webp",
+    "rewardsButton": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/premios.webp",
+    "rewardsImages": [
+      {
+        "src": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/premios-camiseta.webp",
+        "name": "prize weekly"
+      },
+      {
+        "src": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/premios-camiseta-02.webp",
+        "name": "prize weekly"
+      },
+      {
+        "src": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/premios-final-03.webp",
+        "name": "final prize"
+      }
+    ],
+    "arrowsSlider": {
+      "left": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/left-golden-arrow.webp",
+      "right": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/right-golden-arrow.webp"
+    },
+    "termsButton": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/terminos-y-condiciones.webp",
+    "idolImage": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/dieguito.webp",
+    "idolCatCompleted": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/fin-categoria.webp",
+    "idolGolden": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/diego-trivia-final.webp",
+    "backgroundPoints": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/barra-puntos.webp",
+    "arrowBack": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/arrow_back.webp"
+  },
+  "sounds": {
+    "muteButton": "/sound/pop-click.mp3",
+    "clickOpen": "/sound/arcade-pop.mp3",
+    "closePopup": "/sound/popup-close-minimize.mp3",
+    "startButton": "/sound/button_sound.mp3",
+    "rouletteWheel": "/sound/roulette_wheel.mp3",
+    "correctAnswerSound": "/sound/correct_answer.mp3",
+    "wrongAnswerSound": "/sound/wrong_answer.mp3"
+  },
+  "links": {
+    "termsURL": ""
+  },
+  "textsByLang": {
+    "es": {
+      "terms": "T&C",
+      "rewards": "Premios",
+      "categoryTitle": "Categoría",
+      "buttonStart": "Comenzar",
+      "dailyLimit": "Alcanzaste el límite diario para esta categoría",
+      "categoryCompleted": "¡Felicidades! ¡Completaste toda esta categoría!",
+      "congratsTriviaCompleted": "¡Felicidades! ¡Completaste toda la trivia!",
+      "correctAnswer": "Correcta",
+      "wrongAnswer": "Incorrecta"
+    },
+    "en": {
+      "terms": "T&C",
+      "rewards": "Prizes",
+      "categoryTitle": "Category",
+      "buttonStart": "Start",
+      "dailyLimit": "You reached the daily limit for this category",
+      "categoryCompleted": "Congratulations! You completed this entire category!",
+      "congratsTriviaCompleted": "Congratulations! You completed the trivia!",
+      "correctAnswer": "Correct",
+      "wrongAnswer": "Wrong"
+    },
+    "pt": {
+      "terms": "T&C",
+      "rewards": "Premios",
+      "categoryTitle": "Categoria",
+      "buttonStart": "Começar",
+      "dailyLimit": "Atingiste o limite diário de respostas nestas categorias",
+      "categoryCompleted": "Parabéns! Completaste toda nesta categoria!",
+      "congratsTriviaCompleted": "Parabéns! Completaste todo o desafio!",
+      "correctAnswer": "Correcta",
+      "wrongAnswer": "Incorrecta"
+    }
+  },
+
+  "categories": [
+    {
+      "name": "Championships",
+      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-titulos.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "In what year did he win the Youth World Championship?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1978",
+              "isCorrect": false
+            },
+            {
+              "text": "1979",
+              "isCorrect": true
+            },
+            {
+              "text": "1977",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "What was the only title he won with the Boca Juniors shirt?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Nacional 1981",
+              "isCorrect": false
+            },
+            {
+              "text": "Metropolitano 1980",
+              "isCorrect": false
+            },
+            {
+              "text": "Metropolitano 1981",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Who was the manager of Boca Juniors when he was champion?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Juan Carlos Lorenzo",
+              "isCorrect": false
+            },
+            {
+              "text": "Silvio Marzolini",
+              "isCorrect": true
+            },
+            {
+              "text": "José Yudica",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "What was the first Scudetto he won with Napoli?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1986/87",
+              "isCorrect": true
+            },
+            {
+              "text": "1985/86",
+              "isCorrect": false
+            },
+            {
+              "text": "1987/88",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "How many titles did he win in Napoli?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "4",
+              "isCorrect": false
+            },
+            {
+              "text": "5",
+              "isCorrect": true
+            },
+            {
+              "text": "6",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "How many Copa América finals did he play with the Argentine National Team?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1",
+              "isCorrect": false
+            },
+            {
+              "text": "None",
+              "isCorrect": true
+            },
+            {
+              "text": "2",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "How many senior World Cups did he play with the Argentine National Team?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "4",
+              "isCorrect": true
+            },
+            {
+              "text": "5",
+              "isCorrect": false
+            },
+            {
+              "text": "3",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "What was the last title he won with the Argentine National Team?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "World Cup",
+              "isCorrect": false
+            },
+            {
+              "text": "Artemio Franchi Cup",
+              "isCorrect": true
+            },
+            {
+              "text": "America Cup",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "In which year did France Football magazine award him the honorary Ballon d'Or?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "They never gave it to him",
+              "isCorrect": false
+            },
+            {
+              "text": "1995",
+              "isCorrect": true
+            },
+            {
+              "text": "1998",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biography",
+      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-bio.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "What year was he born?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1961",
+              "isCorrect": false
+            },
+            {
+              "text": "1960",
+              "isCorrect": true
+            },
+            {
+              "text": "1962",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "What is the name of the city where he lived his early years?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Villa Fiorito",
+              "isCorrect": true
+            },
+            {
+              "text": "Banfield",
+              "isCorrect": false
+            },
+            {
+              "text": "Temperley",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "What was his childhood nickname?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Diegote",
+              "isCorrect": false
+            },
+            {
+              "text": "Melena",
+              "isCorrect": false
+            },
+            {
+              "text": "Pelusa",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Who was his childhood idol?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Hugo Gatti",
+              "isCorrect": false
+            },
+            {
+              "text": "Ricardo Bochini",
+              "isCorrect": true
+            },
+            {
+              "text": "Enrique Wolf",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Who was the DT that made him debut in the First Division?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "César Luis Menotti",
+              "isCorrect": false
+            },
+            {
+              "text": "Juan Carlos Lorenzo",
+              "isCorrect": false
+            },
+            {
+              "text": "Juan Carlos Montes",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "What jersey number did he debut with?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "10",
+              "isCorrect": false
+            },
+            {
+              "text": "15",
+              "isCorrect": false
+            },
+            {
+              "text": "16",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "In which stadium did he play the first match with the Argentine National Team?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "River Plate",
+              "isCorrect": false
+            },
+            {
+              "text": "Boca Juniors",
+              "isCorrect": true
+            },
+            {
+              "text": "Racing Club",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "In what year did DIEGO he play his last official match in Argentine football?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1998",
+              "isCorrect": false
+            },
+            {
+              "text": "1997",
+              "isCorrect": true
+            },
+            {
+              "text": "1996",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "In what year did he coach for the first time?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1995",
+              "isCorrect": false
+            },
+            {
+              "text": "1994",
+              "isCorrect": true
+            },
+            {
+              "text": "1993",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "In what year did he take over as coach of the Argentine National Team?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "2007",
+              "isCorrect": false
+            },
+            {
+              "text": "2008",
+              "isCorrect": true
+            },
+            {
+              "text": "2009",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goals",
+      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-goles.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "To which team did he score his first goal in Professionalism?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "San Lorenzo de Mar del Plata",
+              "isCorrect": true
+            },
+            {
+              "text": "Chacarita",
+              "isCorrect": false
+            },
+            {
+              "text": "Platense",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "How many goals did he score in his debut with the Boca shirt against Talleres?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1",
+              "isCorrect": false
+            },
+            {
+              "text": "2",
+              "isCorrect": true
+            },
+            {
+              "text": "None",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "To which team did he score his last goal with the Argentina national team shirt?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "France",
+              "isCorrect": false
+            },
+            {
+              "text": "Greece",
+              "isCorrect": true
+            },
+            {
+              "text": "Italy",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Who scored the first goal for the Argentine National Team with him as coach?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Lionel Messi",
+              "isCorrect": false
+            },
+            {
+              "text": "Juan Román Riquelme",
+              "isCorrect": false
+            },
+            {
+              "text": "Maxi Rodríguez",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "How many Ballons d'Or did he win as a professional player?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1",
+              "isCorrect": false
+            },
+            {
+              "text": "2",
+              "isCorrect": false
+            },
+            {
+              "text": "None",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "How many times was the top scorer in Argentine football?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "5",
+              "isCorrect": true
+            },
+            {
+              "text": "4",
+              "isCorrect": false
+            },
+            {
+              "text": "6",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "What was the first tournament in which he finished as the top scorer in Argentine football?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Metropolitano 1980",
+              "isCorrect": false
+            },
+            {
+              "text": "Metropolitano 1979",
+              "isCorrect": true
+            },
+            {
+              "text": "Metropolitano 1981",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "How many goals did he score playing in the Newell's Old Boys shirt?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1",
+              "isCorrect": false
+            },
+            {
+              "text": "None",
+              "isCorrect": true
+            },
+            {
+              "text": "2",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Memorable Quotes",
+      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-frases.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "“Bush is a murderer, I'd rather be friends with...”",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Fidel",
+              "isCorrect": true
+            },
+            {
+              "text": "Menem",
+              "isCorrect": false
+            },
+            {
+              "text": "Chavez",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "“...4310, seventh floor. And let's see if he lasts 30 seconds.”",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Segurola y Habana",
+              "isCorrect": true
+            },
+            {
+              "text": "Callao y Libertador",
+              "isCorrect": false
+            },
+            {
+              "text": "Pueyrredón y Santa Fe",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "What was his most remembered phrase from his farewell?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "“The turtle escaped”",
+              "isCorrect": false
+            },
+            {
+              "text": "“The ball doesn't get dirty”",
+              "isCorrect": true
+            },
+            {
+              "text": "“You have it inside”",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "To which Argentine journalist did he say, ”You have it inside”?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Pollo Vignolo",
+              "isCorrect": false
+            },
+            {
+              "text": "Toti Pasman",
+              "isCorrect": true
+            },
+            {
+              "text": "Fantino",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "World Cup '86",
+      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-mundial-86.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "How many goals did he score in his World Cup consecration in 1986?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "3",
+              "isCorrect": false
+            },
+            {
+              "text": "5",
+              "isCorrect": true
+            },
+            {
+              "text": "6",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "In what year did FIFA give him the award for the Best Goal of the Century to the 2nd goal he scored against England in '86?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "2002",
+              "isCorrect": true
+            },
+            {
+              "text": "2003",
+              "isCorrect": false
+            },
+            {
+              "text": "2001",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "To which team scored his famous goal 'the hand of God'?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "France",
+              "isCorrect": false
+            },
+            {
+              "text": "England",
+              "isCorrect": true
+            },
+            {
+              "text": "Germany",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "How many penalty goals did he convert in the '86 World Cup?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1",
+              "isCorrect": false
+            },
+            {
+              "text": "2",
+              "isCorrect": false
+            },
+            {
+              "text": "None",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teams",
+      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-equipos.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "How many team jerseys did he defend in professionalism?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "5",
+              "isCorrect": false
+            },
+            {
+              "text": "6",
+              "isCorrect": true
+            },
+            {
+              "text": "7",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "In what year did he debut in the First Division?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1975",
+              "isCorrect": false
+            },
+            {
+              "text": "1977",
+              "isCorrect": false
+            },
+            {
+              "text": "1976",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Against which team did he debut in Argentine football?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Belgrano de Córdoba",
+              "isCorrect": false
+            },
+            {
+              "text": "Talleres de Córdoba",
+              "isCorrect": true
+            },
+            {
+              "text": "Racing Club",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "In what year did he put on the Boca shirt for the 1st time?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1980",
+              "isCorrect": false
+            },
+            {
+              "text": "1981",
+              "isCorrect": true
+            },
+            {
+              "text": "1982",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "What was the first Senior World Cup he played?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Argentine 1978",
+              "isCorrect": false
+            },
+            {
+              "text": "Mexico 1986",
+              "isCorrect": false
+            },
+            {
+              "text": "Spain 1982",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "What European club signed him in 1982?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Nápoli",
+              "isCorrect": false
+            },
+            {
+              "text": "Real Madrid",
+              "isCorrect": false
+            },
+            {
+              "text": "Barcelona",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "What team were he playing against when he broke his ankle?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Betis",
+              "isCorrect": false
+            },
+            {
+              "text": "Zaragoza",
+              "isCorrect": true
+            },
+            {
+              "text": "Osasuna",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Against which team did he play the final of the Copa del Rey that ended in a scandalous fight?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Zaragoza",
+              "isCorrect": false
+            },
+            {
+              "text": "Real Madrid",
+              "isCorrect": false
+            },
+            {
+              "text": "Athletic Bilbao",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Against which team did he make his debut in Napoli in a friendly played in 1984?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "River Plate",
+              "isCorrect": true
+            },
+            {
+              "text": "Boca Juniors",
+              "isCorrect": false
+            },
+            {
+              "text": "Argentinos Juniors",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "What day did he play his last game with the Napoli shirt?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "May 24, 1991",
+              "isCorrect": false
+            },
+            {
+              "text": "March 24, 1991",
+              "isCorrect": true
+            },
+            {
+              "text": "June 24, 1991",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Against which team did he play his last game with the Napoli shirt?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Milan",
+              "isCorrect": false
+            },
+            {
+              "text": "Bari",
+              "isCorrect": false
+            },
+            {
+              "text": "Sampdoria",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "In what year did he debut with the Argentine National Team?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "1977",
+              "isCorrect": true
+            },
+            {
+              "text": "1978",
+              "isCorrect": false
+            },
+            {
+              "text": "1979",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "In which Argentine team did he play in 1993 preparing for the 1994 World Cup?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Newells Old Boys",
+              "isCorrect": true
+            },
+            {
+              "text": "Racing Club",
+              "isCorrect": false
+            },
+            {
+              "text": "Boca Juniors",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "With which club in Spain did he return to football after a suspension in 1992?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Betis",
+              "isCorrect": false
+            },
+            {
+              "text": "Zaragoza",
+              "isCorrect": false
+            },
+            {
+              "text": "Sevilla",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Against which rival did he play his last game with the Boca shirt?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Racing Club",
+              "isCorrect": false
+            },
+            {
+              "text": "River Plate",
+              "isCorrect": true
+            },
+            {
+              "text": "Banfield",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "What was the first team that hired him as a coach?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Racing Club",
+              "isCorrect": false
+            },
+            {
+              "text": "Mandiyú de Corrientes",
+              "isCorrect": true
+            },
+            {
+              "text": "Chaco For Ever",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "In what position did the Argentine National Team finish in the 2010 World Cup Qualifiers?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "First",
+              "isCorrect": false
+            },
+            {
+              "text": "Played a play-off",
+              "isCorrect": false
+            },
+            {
+              "text": "Fourth",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "How far did the Argentine team he coach in the 2010 World Cup go?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Semifinals",
+              "isCorrect": false
+            },
+            {
+              "text": "Quarter finals",
+              "isCorrect": true
+            },
+            {
+              "text": "8th Final",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "What was the first team he coached in the United Arab Emirates?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Fujairah",
+              "isCorrect": false
+            },
+            {
+              "text": "Al Wasl",
+              "isCorrect": true
+            },
+            {
+              "text": "Al-Ahli",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "What team did he coach in Mexico?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Dorados",
+              "isCorrect": true
+            },
+            {
+              "text": "Toluca",
+              "isCorrect": false
+            },
+            {
+              "text": "América",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Who was the field assistant when he took over at Gimnasia de la Plata?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Alejandro Mancuso",
+              "isCorrect": false
+            },
+            {
+              "text": "Sebastián Méndez",
+              "isCorrect": true
+            },
+            {
+              "text": "Héctor Enrique",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Against which team did he debut as coach of Gimnasia LP?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Boca",
+              "isCorrect": false
+            },
+            {
+              "text": "Banfield",
+              "isCorrect": false
+            },
+            {
+              "text": "Racing",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "How many games did he coach Gimnasia LP?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "20",
+              "isCorrect": false
+            },
+            {
+              "text": "21",
+              "isCorrect": true
+            },
+            {
+              "text": "22",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
