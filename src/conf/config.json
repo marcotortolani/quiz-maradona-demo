@@ -1,7 +1,7 @@
 {
   "last-updated": "",
   "config": {
-    "triesAllowedPerDay": 2,
+    "triesAllowedPerDay": 50,
     "pointsCorrect": 1000,
     "pointsWrong": 500,
     "pointsBonus": 1000
