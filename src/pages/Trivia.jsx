@@ -65,6 +65,7 @@ export default function Trivia() {
         onTriviaCompleted={handleTriviaCompleted}
       />
 
+      {/* ---- Animation ---- */}
       {triviaCompleted && (
         <div className="pop-up-fireworks hid">
           <h3 className="golden-congrats">{congratsTriviaCompleted}</h3>
@@ -83,6 +84,7 @@ export default function Trivia() {
           />
         </div>
       )}
+      {/* ---- Animation ---- */}
 
       {!points && (
         <div className="bubble-message-wrapper">
