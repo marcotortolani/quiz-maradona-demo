@@ -13,13 +13,15 @@ const PanelFooter = ({ cat }) => {
     soundOn,
     points,
     images,
+    imagesByLang,
     sounds,
     links,
     texts,
     categories,
   } = useContext(ConfigContext);
 
-  const { rewardsImages, rewardsButton, termsButton, arrowBack, arrowsSlider } = images;
+  const { rewardsButton, termsButton, arrowBack, arrowsSlider } = images;
+  const { rewardsImages } = imagesByLang;
   const { clickOpen, closePopup } = sounds;
   const { termsURL } = links;
   const DATA_CATEGS = categories;
@@ -40,7 +42,7 @@ const PanelFooter = ({ cat }) => {
       closeRwd();
     }
   }
-  
+
   return (
     <div className="panel-footer-container">
       {location.includes("category") || location.includes("question") ? (
@@ -99,7 +101,10 @@ const PanelFooter = ({ cat }) => {
                   </button>
                 </div>
 
-                <RewardsSlider slidesImages={rewardsImages} arrowsSlider={arrowsSlider}/>
+                <RewardsSlider
+                  slidesImages={rewardsImages}
+                  arrowsSlider={arrowsSlider}
+                />
               </div>
             </div>
           )}

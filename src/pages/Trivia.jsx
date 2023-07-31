@@ -10,10 +10,10 @@ import SpinnerWheel from "../components/Trivia/SpinnerWheel";
 import PanelFooter from "../components/Trivia/PanelFooter";
 
 export default function Trivia() {
-  const { soundOn, setSoundOn, points, images, sounds, texts } =
+  const { soundOn, setSoundOn, points, images, imagesByLang, sounds, texts } =
     useContext(ConfigContext);
-  const { backgroundApp, iconSoundActive, iconSoundMute, bubbleStartMessage, bubbleDailyLimit, idolGolden } =
-    images;
+  const { backgroundApp, iconSoundActive, iconSoundMute, idolGolden } = images;
+  const { bubbleStartMessage, bubbleDailyLimit } = imagesByLang;
   const { muteButton } = sounds;
   const { congratsTriviaCompleted } = texts;
 
@@ -48,7 +48,7 @@ export default function Trivia() {
         />
       </div>
 
-      <LogoHeader page={"home"} />
+      <LogoHeader />
 
       <div className="sound-controls ">
         <button className="mute-control" aria="switch" onClick={handleSound}>

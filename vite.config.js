@@ -17,7 +17,7 @@ export default defineConfig({
       injectRegister: "script",
       registerType: "autoUpdate",
       devOptions: { enabled: false },
-      includeAssets: ["/trivia-logo-app.png", "/logo-192x192.png"],
+      includeAssets: ["/img/en/logo-app.png"],
       manifest: {
         name: "Quiz Diego Maradona by MediaMoob",
         short_name: "Trivia Maradona",
@@ -26,7 +26,7 @@ export default defineConfig({
         theme_color: "#000000",
         icons: [
           {
-            src: "/img/logo-192x192.png",
+            src: "/img/en/logo-app.png",
             sizes: "192x192",
             type: "image/png",
           },

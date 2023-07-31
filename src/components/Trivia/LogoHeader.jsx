@@ -3,8 +3,9 @@ import { Link, useLocation } from "react-router-dom";
 import { ConfigContext } from "../../ConfigProvider";
 
 export default function LogoHeader() {
-  const { images } = useContext(ConfigContext);
-  const { logoHeader, idolImage, madeBy } = images;
+  const { images, imagesByLang } = useContext(ConfigContext);
+  const { idolImage, madeBy } = images;
+  const { logoHeader } = imagesByLang;
   const location = useLocation().pathname;
 
   return (

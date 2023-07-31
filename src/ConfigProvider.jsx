@@ -13,6 +13,7 @@ import {
 
 const lang = document.documentElement.lang;
 const texts = textsByLang[`${lang}`];
+const imagesByLang = images[`${lang}`];
 
 const ConfigContext = createContext();
 
@@ -40,6 +41,7 @@ const ConfigProvider = ({ children }) => {
     setDataStored,
     config,
     images,
+    imagesByLang,
     sounds,
     links,
     texts,

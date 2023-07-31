@@ -1,46 +1,64 @@
 {
   "last-updated": "",
   "config": {
-    "triesAllowedPerDay": 50,
+    "triesAllowedPerDay": 2,
     "pointsCorrect": 1000,
     "pointsWrong": 500,
     "pointsBonus": 1000
   },
   "images": {
-    "logoHeader": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/trivia-diego-logo.webp",
-    "madeBy": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/by-memoob.webp",
-    "backgroundApp": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/background.webp",
+    "es": {
+      "logoHeader": "/img/es/trivia-diego-logo.webp",
+      "bubbleStartMessage": "/img/es/globo.webp",
+      "bubbleDailyLimit": "/img/es/globo-limite-diario.webp",
+      "rewardsImages": [
+        {
+          "src": "/img/es/premios-camiseta.webp",
+          "name": "prize weekly"
+        },
+        {
+          "src": "/img/es/premios-camiseta-02.webp",
+          "name": "prize weekly"
+        },
+        {
+          "src": "/img/es/premios-final-03.webp",
+          "name": "final prize"
+        }
+      ]
+    },
+    "en": {
+      "logoHeader": "/img/en/trivia-diego-logo.webp",
+      "bubbleStartMessage": "/img/en/globo.webp",
+      "bubbleDailyLimit": "/img/en/globo-limite-diario.webp",
+      "rewardsImages": [
+        {
+          "src": "/img/en/premios-camiseta-02.webp",
+          "name": "prize weekly"
+        },
+        {
+          "src": "/img/en/premios-final-03.webp",
+          "name": "final prize"
+        }
+      ]
+    },
+    "madeBy": "/img/by-memoob.webp",
+    "backgroundApp": "/img/background.webp",
     "iconSoundActive": "/img/sound_active_icon.webp",
     "iconSoundMute": "/img/sound_mute_icon.webp",
-    "spinButton": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/pelota.webp",
-    "pointerRoulette": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/diego-pointer.webp",
-    "bubbleStartMessage": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/globo.webp",
-    "bubbleDailyLimit": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/globo-limite-diario.webp",
-    "rewardsButton": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/premios.webp",
-    "rewardsImages": [
-      {
-        "src": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/premios-camiseta.webp",
-        "name": "prize weekly"
-      },
-      {
-        "src": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/premios-camiseta-02.webp",
-        "name": "prize weekly"
-      },
-      {
-        "src": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/premios-final-03.webp",
-        "name": "final prize"
-      }
-    ],
+    "spinButton": "/img/pelota.webp",
+    "pointerRoulette": "/img/diego-pointer.webp",
+    "rewardsButton": "/img/premios.webp",
+
     "arrowsSlider": {
-      "left": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/left-golden-arrow.webp",
-      "right": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/right-golden-arrow.webp"
+      "left": "/img/left-golden-arrow.webp",
+      "right": "/img/right-golden-arrow.webp"
     },
-    "termsButton": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/terminos-y-condiciones.webp",
-    "idolImage": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/dieguito.webp",
-    "idolCatCompleted": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/fin-categoria.webp",
-    "idolGolden": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/diego-trivia-final.webp",
-    "backgroundPoints": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/barra-puntos.webp",
-    "arrowBack": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/arrow_back.webp"
+    "termsButton": "/img/terminos-y-condiciones.webp",
+    "idolImage": "/img/diego-corriendo.webp",
+    "idolCatCompleted": "/img/fin-categoria.webp",
+    "idolGolden": "/img/diego-trivia-final.webp",
+    "backgroundPoints": "/img/barra-puntos.webp",
+    "arrowBack": "/img/arrow_back.webp"
   },
   "sounds": {
     "muteButton": "/sound/pop-click.mp3",
@@ -73,9 +91,9 @@
       "buttonStart": "Start",
       "dailyLimit": "You reached the daily limit for this category",
       "categoryCompleted": "Congratulations! You completed this entire category!",
-      "congratsTriviaCompleted": "Congratulations! You completed the trivia!",
+      "congratsTriviaCompleted": "Congratulations! You completed the Quiz!",
       "correctAnswer": "Correct",
-      "wrongAnswer": "Wrong"
+      "wrongAnswer": "Incorrect"
     },
     "pt": {
       "terms": "T&C",
@@ -93,7 +111,7 @@
   "categories": [
     {
       "name": "Championships",
-      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-titulos.webp",
+      "imgURL": "/img/categoria-titulos.webp",
       "bonus": false,
       "questions": [
         {
@@ -271,7 +289,7 @@
     },
     {
       "name": "Biography",
-      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-bio.webp",
+      "imgURL": "/img/categoria-bio.webp",
       "bonus": false,
       "questions": [
         {
@@ -468,7 +486,7 @@
     },
     {
       "name": "Goals",
-      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-goles.webp",
+      "imgURL": "/img/categoria-goles.webp",
       "bonus": false,
       "questions": [
         {
@@ -627,7 +645,7 @@
     },
     {
       "name": "Memorable Quotes",
-      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-frases.webp",
+      "imgURL": "/img/categoria-frases.webp",
       "bonus": false,
       "questions": [
         {
@@ -710,7 +728,7 @@
     },
     {
       "name": "World Cup '86",
-      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-mundial-86.webp",
+      "imgURL": "/img/categoria-mundial-86.webp",
       "bonus": false,
       "questions": [
         {
@@ -793,7 +811,7 @@
     },
     {
       "name": "Teams",
-      "imgURL": "https://s3.sa-east-1.amazonaws.com/moob.club/trivias/maradona/img/categoria-equipos.webp",
+      "imgURL": "/img/categoria-equipos.webp",
       "bonus": false,
       "questions": [
         {
