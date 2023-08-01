@@ -10,8 +10,15 @@ import SpinnerWheel from "../components/Trivia/SpinnerWheel";
 import PanelFooter from "../components/Trivia/PanelFooter";
 
 export default function Trivia() {
-  const { soundOn, setSoundOn, points, images, imagesByLang, sounds, texts } =
-    useContext(ConfigContext);
+  const {
+    soundOn,
+    setSoundOn,
+    points,
+    images,
+    imagesByLang,
+    sounds,
+    texts,
+  } = useContext(ConfigContext);
   const { backgroundApp, iconSoundActive, iconSoundMute, idolGolden } = images;
   const { bubbleStartMessage, bubbleDailyLimit } = imagesByLang;
   const { muteButton } = sounds;
@@ -21,6 +28,7 @@ export default function Trivia() {
   const [mutePop] = useSound(muteButton);
   const [rouletteDisable, setRouletteDisable] = useState(false);
   const [triviaCompleted, setTriviaCompleted] = useState(false);
+
 
   function handleSpinDisable(spinDisable) {
     setRouletteDisable(spinDisable);
@@ -88,7 +96,10 @@ export default function Trivia() {
 
       {!points && (
         <div className="bubble-message-wrapper">
-          <img src={bubbleStartMessage} alt="Bubble Initial Message To Start" />
+          <img
+            src={bubbleStartMessage}
+            alt="Bubble Initial Message To Start"
+          />
         </div>
       )}
 

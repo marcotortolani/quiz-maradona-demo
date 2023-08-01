@@ -3,7 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { ConfigContext } from "../../ConfigProvider";
 
 export default function LogoHeader() {
-  const { images, imagesByLang } = useContext(ConfigContext);
+  const { images, imagesByLang } =
+    useContext(ConfigContext);
   const { idolImage, madeBy } = images;
   const { logoHeader } = imagesByLang;
   const location = useLocation().pathname;
@@ -14,7 +15,10 @@ export default function LogoHeader() {
         <>
           <div className="logo-img-wrapper">
             <Link to="/">
-              <img src={logoHeader} alt="Icon Logo Trivia Diego Maradona" />
+              <img
+                src={logoHeader}
+                alt="Icon Logo Trivia Diego Maradona"
+              />
             </Link>
           </div>
 
